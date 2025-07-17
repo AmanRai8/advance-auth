@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-const GlowButton = () => {
+const GlowButton = ({ message: Message }) => {
   const buttonRef = useRef(null);
   const [coords, setCoords] = useState({ x: 0, y: 0 });
 
@@ -30,7 +30,7 @@ const GlowButton = () => {
         transition={{ type: "spring", stiffness: 200, damping: 20 }}
       />
       {/* Button label */}
-      <span className="relative z-10">Sign Up</span>
+      <span className="relative z-10">{Message}</span>
     </motion.button>
   );
 };
