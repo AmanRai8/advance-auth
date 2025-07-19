@@ -1,12 +1,5 @@
 # 🚀 Advance Auth — MERN Stack Authentication System
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/advance-auth)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/advance-auth?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/advance-auth)
-![GitHub license](https://img.shields.io/github/license/yourusername/advance-auth)
-
----
-
 Welcome to **Advance Auth** — a complete, secure, and scalable **authentication system** built with the popular **MERN stack**:
 
 - **M**ongoDB for data storage
